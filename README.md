@@ -1,20 +1,21 @@
 # Django_user_management
 
 Deployed on : Django rest api\
-Sample Data used : User Information Open json dataset\
+Sample Data used : User Information Open json dataset
 
 Access:
 Input : JSON Post hit 
 Sample Payloads:
 
 1. Returns all the data when empty json passed over the network:
-Ex:http://serverip:8000/model/\
-Req type : POST\
-Payload data : {}\
+Ex:http://serverip:8000/model/
+Req type : POST \
+Payload data : {}
 
 2. Returns related data when all passed data matched to a record
-Ex:http://serverip:8000/model/\
-Req type : POST\
+Ex:http://serverip:8000/model/
+
+Req type : POST \ 
 Payload data : {
     "email": "melany.wijngaard@example.com",
     "gender": "female",
