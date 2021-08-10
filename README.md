@@ -1,32 +1,30 @@
 # Django_user_management
 
-Deployed on : Django rest api\
+Deployed on : Django rest api<br/>
 Sample Data used : User Information Open json dataset
 
-Access:
+Access:<br/>
 Input : JSON Post hit 
-Sample Payloads:
 
-1. Returns all the data when empty json passed over the network:
-Ex:http://serverip:8000/model/
-Req type : POST \
+## Sample Payloads:<br/>
+
+1. Returns all the data when empty json passed over the network:<br/>
+Ex:http://serverip:8000/model/ <br/>
+Req type : POST <br/>
 Payload data : {}
 
-2. Returns related data when all passed data matched to a record
-Ex:http://serverip:8000/model/
-
-Req type : POST \ 
+2. Returns related data when all passed data matched to a record<br/>
+Ex:http://serverip:8000/model/<br/>
+Req type : POST <br/>
 Payload data : {
     "email": "melany.wijngaard@example.com",
     "gender": "female",
     "birthdate": 608022796,
    "username": "bigpeacock217",
     "first_name": "melany",
-    "last_name": "wijngaard"
+    "last_name": "wijngaard"}
 
-  }
-
-# Improvments:
+# Future Improvments:
 
 1. Faster search, indexing, caching can be applied
 2. Secutiry by binding IPs
