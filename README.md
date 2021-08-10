@@ -7,14 +7,14 @@ Access:
 Input : JSON Post hit 
 Sample Payloads:
 
-## Returns all the data when empty json passed over the network:
+# Returns all the data when empty json passed over the network:
 
 
 Ex:http://serverip:8000/model/
 Req type : POST
 Payload data : {}
 
-## Returns related data when all passed data matched to a record
+# Returns related data when all passed data matched to a record
 
 
 Ex:http://serverip:8000/model/
@@ -29,7 +29,7 @@ Payload data : {
 
   }
 
-## Improvments:
+# Improvments:
 
 1. Faster search, indexing, caching can be applied
 2. Secutiry by binding IPs
