@@ -7,16 +7,12 @@ Access:
 Input : JSON Post hit 
 Sample Payloads:
 
-# Returns all the data when empty json passed over the network:
-
-
+1. Returns all the data when empty json passed over the network:
 Ex:http://serverip:8000/model/
 Req type : POST
 Payload data : {}
 
-# Returns related data when all passed data matched to a record
-
-
+2. Returns related data when all passed data matched to a record
 Ex:http://serverip:8000/model/
 Req type : POST
 Payload data : {
